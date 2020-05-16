@@ -24,7 +24,24 @@ With each image, the annotation is available as text file. The annotation format
 The Pre-Trained models can be downloaded from [google drive](https://drive.google.com/drive/folders/1QsNpLBR_g7ELBhJp404Ei0mEDjyJi8wx).
 
 ## Installation
-
+## RetinaNet
+```
+ conda create -n Train python=3.7
+ pip install -r code/keras-retinanet/requirements.txt
+```
+## YOLOv3
+```
+ conda create -n ACV2YOLO python=3.6
+ conda install -c anaconda tensorflow-gpu
+ pip install Pillow==2.2.1
+ pip instal numpy
+```
+## Faster RCNN
+```
+ conda create -n FRCNN python=3.7
+ conda install -c anaconda tensorflow-gpu
+ pip install -r code/keras-frcnn/requirements.txt
+```
 
 ## Training
 To start training run the following command:
