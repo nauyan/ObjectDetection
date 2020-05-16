@@ -33,6 +33,10 @@ To start training run the following command:
 ```
 
 ## Testing
+To start testing run the following command:
+```
+ source test.sh
+```
 
 ## Quantitatvie Results
 Results Reported on Private Leaderboard of Challenge
